@@ -46,11 +46,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="nio_retcn-user 11 RRN31.Q3-1-11-6 f81cc release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
-
-# GMS
-#WITH_GMS := true
-#GMS_MAKEFILE := gms.mk
-#MAINLINE_MODULES_MAKEFILE := mainline_modules.mk
-
-# Quick-Tap
-TARGET_SUPPORTS_QUICK_TAP := true
