@@ -17,3 +17,8 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_nio.mk
     
+    COMMON_LUNCH_CHOICES := \
+    lineage_nio-user \
+    lineage_nio-userdebug \
+    lineage_nio-eng
+    
