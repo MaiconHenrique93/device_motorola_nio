@@ -174,8 +174,8 @@
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
         M 0,0
-        h 240
-        v 115
+        h 245
+        v 120
         h -240
         Z
         @left
