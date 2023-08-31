@@ -156,6 +156,71 @@ vendor/etc/camera/vidhance_calibration
 # Camera (Firmware)
 vendor/firmware/CAMERA_ICP.elf
 
+# MotoCamera - apps
+-product/app/MotCamera3AI/MotCamera3AI.apk:system_ext/app/MotCamera3AI/MotCamera3AI.apk;PRESIGNED
+-product/priv-app/MotCamera3/MotCamera3.apk:system_ext/priv-app/MotCamera3/MotCamera3.apk;OVERRIDES=Aperture,Camera2|231033e5557c32c97dc90ddc2560ca32cc4f7c14
+
+# MotCamera - jar
+-vendor/framework/com.motorola.motosignature.jar
+
+# MotoCamera - permissions
+-product/etc/permissions/privapp-permissions-com.motorola.camera3.xml:system_ext/etc/permissions/privapp-permissions-com.motorola.camera3.xml
+-product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml:system_ext/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml
+-vendor/etc/permissions/com.motorola.camera3.content.ai.xml
+-vendor/etc/permissions/com.motorola.camera3.nio.xml
+-vendor/etc/permissions/com.motorola.camera3.xml
+-vendor/etc/permissions/com.motorola.motosignature.xml
+
+# MotoCamera - libs
+system_ext/lib64/libAncHumanSegFigureFusion-jni.so|29b3f53abf695f59093fa789cffaf79771b49568
+system_ext/lib64/libFNVfbEngineHAL_legacy.so|228508501f39e855c89df1463f4a44e2cb085540
+system_ext/lib64/libNvBeautyEffect.so|cd80f5049b2f668379f1d3ecbf6e6206de20a46d
+system_ext/lib64/libSNPE.so|a90efc5216de3cc3f20fb70f3e1ee567729f02f0
+system_ext/lib64/libSuperSensor.so|bda1325ff6596934c1bc768d09ad59d390771371
+system_ext/lib64/libSuperSensorCPU.so|f00a72b02daaf5625a447c17d021af46f1219979
+system_ext/lib64/libSuperSensorProcessor.so|7f60e272a8ccf8b69c28ed62a945f3d66ebae61c
+system_ext/lib64/libSuperSensorProcessorCWrapper.so|1b63e7a71d723e752cfb351a317956bd110c848f
+system_ext/lib64/libarcsoft_dualcam_refocus.so|4e8778a48d5d9bb33ef85063ee4b9dbedfb858e2
+system_ext/lib64/libarcsoft_hdr_scbokeh_image.so|2c2d9e9c173ed5516a7e425e6b1b1ee0b9f1d1a8
+system_ext/lib64/libarcsoft_high_dynamic_range.so|2d343429abbcd1dbcb3cb8c6d4acc4d8bb54f200
+system_ext/lib64/libarcsoft_multiframe_bokeh_image.so|a2ac6da70a9bc9d42ac5287127bb8faa7951a05c
+system_ext/lib64/libarcsoft_scbokeh_Generic.so|5f51996cb89299b9c222bc211a514db3b1d398b8
+system_ext/lib64/libarcsoft_supernight.so|1f6c747440dca2eec16656a1e53987e8e88a0257
+system_ext/lib64/libarcsoft_superportrait.so|7ce2938ca9311fd8b73f24d65b1c805bd325a700
+system_ext/lib64/libas-super-slow-motion.so|f9f26f2a550d602e3b6322d9c970cff19dcc91a4
+system_ext/lib64/libbarhopper_v3.so|156387210e424f30d2642edeff2a549d77808abd
+system_ext/lib64/libbg-postproc-jni.so|bafa4db6657ba91d22e2723218d98ec0017fcced
+system_ext/lib64/libc++.so|e8707820517ab7713b8ca6ac4462361e00629c26
+system_ext/lib64/libc++_shared.so|dbbd9e4d06e2566c31bdc744dd7391536a780cc6
+system_ext/lib64/libcamerax_extension_jni.so|c268e432a94e2e5ef1da4602c6df707c21fb9d9c
+system_ext/lib64/libdoc-util.so|8622330d29f297903796848531b4807549b293f4
+system_ext/lib64/libdynamic_depth.so|515f03132a086f15c565dd89b192ede5eeca7e29
+system_ext/lib64/libfn-beauty-vfb-legacy-base.so|f0a72449ee71ed63aecbd5783576c2f3ad5fa5cb
+system_ext/lib64/libfoundation.so|003cfed910a6b28ac1623f8614f15f0fd157694f
+system_ext/lib64/libgg-dynamic_depth.so|3bb91c2a926a79b8d706af1d3c86b03306def9cd
+system_ext/lib64/libgg-tensorflow-lite.so|0efa7b059344c62b020d7d97e3a44d45aa0eacfb
+system_ext/lib64/libgif.so|310d708f0c9b60c065514c1e3f1534c8ba347c7d
+system_ext/lib64/libjpeg.so|a51f6dde2a6d7eb11378a2575a5e6bf625a15bbb
+system_ext/lib64/liblenovo_panorama.so|13c8b6cc2366eea46c5fcb7eb3665a5ba5d38ed4
+system_ext/lib64/libmcf-base.so|9ddf4cd2d8a646c328efccaad6f0288c243cb5a6
+system_ext/lib64/libmcf-jni.so|e030b5680f56e1f74bc38313aa095c73191c1486
+system_ext/lib64/libmcf-qc-fd-offline_local.so|99d2dbab152e22d6ae3d552cee3a172fc886ba24
+system_ext/lib64/libmcf-stand-alone-sm.so|34d530463431a4d6bb38439f3493ded3b55e3f06
+system_ext/lib64/libmeishe-nv-effects-thumbnails.so|c97c180570912dc4593cd6b956f7121b9fae7b37
+system_ext/lib64/libmmcamera_faceproc2.so|1c732d58bf24c939f568cda340318e5b873dce3b
+system_ext/lib64/libmorpho_cinema_graph.so|c689a3734f6963b6ad4be3a9ddfae00c1c82acb0
+system_ext/lib64/libmorpho_panorama_gp3.so|239287acb6bbb790b793538030d219742a1ff5d0
+system_ext/lib64/libmorpho_panorama_gp3_core.so|af05f89eb7d96b5980337361b4cd082eeb52d400
+system_ext/lib64/libmorpho_sensor_fusion.so|bbbdfc2b980c3c5810a7d26f14c735c1b64a2af9
+system_ext/lib64/libmot-cinemagraph-engine.so|6e6059b5dac60d0743c2b5a4911f2e0456f7545c
+system_ext/lib64/libmot-util.so|2f3a022772c42cc776ca06d97735411b1d2f382b
+system_ext/lib64/libmpbase.so|07021c39abbc5c8538f6df1876a3eb3015ff9c2a
+system_ext/lib64/libqc-snpe.so|a7be720bf385baca83fbc4499191f3e0f5dba41d
+system_ext/lib64/libsmart_ppt.so|1ba24a17a049e175e5509a9ea1cba38940159efc
+system_ext/lib64/libtensorflowlite.so|17f94dc427220788db8f10d658d3a330488ac7d6
+system_ext/lib64/libtensorflowlite_gpu_delegate.so|821bcbece27d47c49daac00a65fdf48213befad1
+system_ext/lib64/libtiff.so|6b554008e77e469fcf0a652e018138d10f3550d7
+
 # Display (Calibration Data)
 vendor/etc/qdcm_calib_data_mipi_mot_vid_tm_1080x2520_670.xml
 
